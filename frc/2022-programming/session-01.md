@@ -31,6 +31,8 @@ The FRC Game Tools can only be installed on Windows computers. Note that startin
 
 The initial download for this session is the [2022 (f1) version](https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html#440024). You can find details in the [installation guide](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/frc-game-tools.html).
 
+When trying to run Driver Station as a non-administrator on a district-managed device, you may be prompted for an administrator password. To give permission, you will need to use `DEVICE-NAME\ARSAdmin` as the account name, where `DEVICE-NAME` is the name of the device; there should be a label on the device with its name, or you can view the properties on `This PC` in the File Explorer to find the name.
+
 
 ## FRC Radio Configuration Utility
 
@@ -39,6 +41,8 @@ FRC Robots are controlled via WiFi (the 802.11 standard), and each robot is equi
 The FRC Radio Configuration Utility can only be installed on Windows computers. Note that starting with the 2023 season, only Windows 10 and later is supported.
 
 The initial download for this session is the [22.0.1 version](https://firstfrc.blob.core.windows.net/frc2022/Radio/FRC_Radio_Configuration_22_0_1.zip). You can find details on how radio configuration works in the [documentation](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/radio-programming.html?highlight=radio%20configuration#programming-your-radio).
+
+When trying to run this software as a non-administrator on a district-managed device, you will be prompted for an administrator password. To give permission, you will need to use `DEVICE-NAME\ARSAdmin` as the account name, where `DEVICE-NAME` is the name of the device; there should be a label on the device with its name, or you can view the properties on `This PC` in the File Explorer to find the name.
 
 
 ## REV Hardware Client
@@ -66,3 +70,5 @@ The GitHub Desktop application allows multi-user collaboration on projects witho
 The installer is available from the [GitHub Desktop site](https://desktop.github.com).
 
 Note that to use GitHub Desktop, you will need a GitHub account. You can sign up on [GitHub's website](https://github.com). When you have a username, you can be added to the team on GitHub.
+
+Unlike other software, this should be installed per-user, not once for the whole device.
